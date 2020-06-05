@@ -11,29 +11,25 @@ fig.suptitle('Info')
 percents = [len(data[data['web1a'] == 1])/len(data), len(data[data['web1b'] == 1])/len(data), len(data[data['web1c'] == 1])/len(data), len(data[data['web1d'] == 1])/len(data), len(data[data['web1e'] == 1])/len(data), len(data[data['web1f'] == 1])/len(data), len(data[data['web1g'] == 1])/len(data), len(data[data['web1h'] == 1])/len(data)]
 #x axis labels
 labels = ['Twitter','Instagram','Facebook','Snapchat','YouTube','WhatsApp','Pinterest','LinkedIn']
-#sets the size of the graph
-plt.figure(figsize=(16,6))
 #graph, with the x axis labels and y values
 axs[0].bar(labels, percents)
 #labels
-plt.xlabel('Platforms', fontsize=12, labelpad=5)
-plt.ylabel('Frequency', fontsize=12, labelpad=5)
+axs[0].set_xlabel('Platforms', fontsize=12, labelpad=5)
+axs[0].set_ylabel('Frequency', fontsize=12, labelpad=5)
 #title
-plt.title('Social Media Usage')
+axs[0].set_title('Social Media Usage')
 #used to show to graph
 
 percents2 = [len(data[data['device1a'] == 1])/len(data), len(data[data['device1b'] == 1])/len(data), len(data[data['device1c'] == 1])/len(data), len(data[data['device1d'] == 1])/len(data)]
 #x axis labels
 labels2 = ['Phone','Tablet','Desktop/Laptop','Game Console']
-#sets the size of the graph
-plt.figure(figsize=(16,6))
 #graph, with the x axis labels and y values
 axs[1].bar(labels2, percents2)
 #labels
-plt.xlabel('Platform Used', fontsize=12, labelpad=5)
-plt.ylabel('Frequency', fontsize=12, labelpad=5)
+axs[1].set_xlabel('Platform Used', fontsize=12, labelpad=5)
+axs[0].set_ylabel('Frequency', fontsize=12, labelpad=5)
 #title
-plt.title('Platform Ownership')
+axs[0].set_title('Platform Ownership')
 #used to show to graph
 
 #hi people
