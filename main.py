@@ -34,10 +34,7 @@ plt.ylabel('Frequency', fontsize=12, labelpad=5)
 plt.title('Platform Ownership')
 #used to show to graph
 
-
-
-
-
+#hi people
 
 
 
