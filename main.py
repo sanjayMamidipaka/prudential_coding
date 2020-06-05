@@ -20,9 +20,9 @@ plt.ylabel('Frequency', fontsize=12, labelpad=5)
 plt.title('Social Media Usage')
 #used to show to graph
 
-percents2 = [len(data[data['device1b'] == 1])/len(data), len(data[data['device1c'] == 1])/len(data), len(data[data['device1d'] == 1])/len(data), len(data[data['device1a'] == 1])/len(data)]
+percents2 = [len(data[data['device1a'] == 1])/len(data), len(data[data['device1b'] == 1])/len(data), len(data[data['device1c'] == 1])/len(data), len(data[data['device1d'] == 1])/len(data)]
 #x axis labels
-labels2 = ['Tablet','Desktop/Laptop','Game Console','Phone']
+labels2 = ['Phone','Tablet','Desktop/Laptop','Game Console']
 #sets the size of the graph
 plt.figure(figsize=(16,6))
 #graph, with the x axis labels and y values
@@ -36,9 +36,6 @@ plt.title('Platform Ownership')
 
 #hi people
 #hello world
-
-
-
 
 
 
