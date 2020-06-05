@@ -32,8 +32,6 @@ axs[0].set_ylabel('Frequency', fontsize=12, labelpad=5)
 axs[0].set_title('Platform Ownership')
 #used to show to graph
 
-#hi people
-#hello world
 
 
 plt.show()
