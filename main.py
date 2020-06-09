@@ -3,7 +3,9 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import sklearn
+import ranking
 
+ranking_object = ranking.Ranker()
 data = pd.read_csv('data.csv')
 #this line gets the percentage of yes answers for each type of social media
 fig, axs = plt.subplots(2, figsize=(16,8))
@@ -25,7 +27,11 @@ for passnum in range(len(percents)-1,0,-1):
             labels[i+1] = temp1
 
 dictionary = dict(zip(labels, percents))
-print(dictionary)
+iterator = 0
+for i in dictionary:
+    dictionary[i] = iterator + 1
+    iterator += 1
+ranking_object.add_ranking("Platform Usage", dictionary)
 
 axs[0].bar(labels, percents)
 #labels
