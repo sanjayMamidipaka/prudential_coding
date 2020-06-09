@@ -6,11 +6,11 @@ import sklearn
 import ranking
 
 def normalize(percent):
-    minimum = 0
-    maximum = 1
+    minimum = min(percent)
+    maximum = max(percent)
     normalizedPercents = []
     for x in percent:
-        temp = (x-minimum)/(maximum-minimum)
+        temp = x/sum(percent);
         normalizedPercents.append(temp)
     return normalizedPercents
     
