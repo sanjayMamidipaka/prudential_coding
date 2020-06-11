@@ -40,7 +40,7 @@ iterator = 0
 for i in dictionary:
     dictionary[i] = iterator + 1
     iterator += 1
-ranking_object.add_ranking("Platform Usage", dictionary)
+ranking_object.add_ranking("Social Media Usage", dictionary)
 
 axs[0].bar(labels, percents)
 #labels
@@ -53,10 +53,24 @@ axs[0].set_title('Social Media Usage')
 percents2 = [len(data[data['device1a'] == 1])/len(data), len(data[data['device1b'] == 1])/len(data), len(data[data['device1c'] == 1])/len(data), len(data[data['device1d'] == 1])/len(data)]
 #x axis labels
 labels2 = ['Phone','Tablet','Desktop/Laptop','Game Console']
-dictionary2 = dict(zip(labels2, percents2))
 normalized = normalize(percents2)
+
+for passnum in range(len(normalized)-1,0,-1):
+    for i in range(passnum):
+        if normalized[i]<normalized[i+1]:
+            temp3 = normalized[i]
+            normalized[i] = normalized[i+1]
+            normalized[i+1] = temp3
+
+            temp4 = labels2[i]
+            labels2[i] = labels2[i+1]
+            labels2[i+1] = temp4
+normalizedNums = [1,2,3,4]
+dictionary2 = dict(zip(labels2, normalizedNums))
+
+ranking_object.add_ranking("Platform Usage", dictionary2)
 #graph, with the x axis labels and y values
-axs[1].bar(labels2, percents2)
+axs[1].bar(labels2, normalized)
 #labels
 axs[1].set_xlabel('Platform Used', fontsize=12, labelpad=5)
 axs[1].set_ylabel('Frequency', fontsize=12, labelpad=5)
