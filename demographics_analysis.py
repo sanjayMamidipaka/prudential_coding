@@ -26,6 +26,6 @@ plt.show()
 
 # Retirement funds can contribute to millions in revenue for Prudential
 # According a survey which calculated when US investors started saving across different age ranges, two age groups stood out: 20-29 and 30-49 (around 75% of the survey)
-# We can find a correlation between social media age domographics and when US investors begin looking into retirement savings
+# We can find a correlation between social media age demographics and when US investors begin looking into retirement savings
 # The output shows the results
 

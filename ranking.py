@@ -27,3 +27,16 @@ class Ranker:
             iterator += 1
         return dictionary
 
+    def two_sort_ascending(self, list1, list2):
+        for i in range(0, len(list1)):
+            for passnum in range(i):
+                if list1[i] < list1[passnum]:
+                    temp = list1[i]
+                    list1[i] = list1[passnum]
+                    list1[passnum] = temp
+
+                    temp1 = list2[i]
+                    list2[i] = list2[passnum]
+                    list2[passnum] = temp1
+        return list1,list2
+
