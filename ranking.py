@@ -10,7 +10,7 @@ class Ranker:
     def two_sort(self, list1, list2):
         for i in range(0, len(list1)):
             for passnum in range(i):
-                if list1[i] > list1[passnum]:
+                if list1[i] < list1[passnum]:
                     temp = list1[i]
                     list1[i] = list1[passnum]
                     list1[passnum] = temp
