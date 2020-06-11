@@ -6,8 +6,6 @@ import sklearn
 import ranking
 
 def normalize(percent):
-    minimum = min(percent)
-    maximum = max(percent)
     normalizedPercents = []
     for x in percent:
         temp = x/sum(percent);
@@ -57,8 +55,6 @@ percents2 = [len(data[data['device1a'] == 1])/len(data), len(data[data['device1b
 labels2 = ['Phone','Tablet','Desktop/Laptop','Game Console']
 dictionary2 = dict(zip(labels2, percents2))
 normalized = normalize(percents2)
-print(normalized)
-print(sorted(dictionary2))
 #graph, with the x axis labels and y values
 axs[1].bar(labels2, percents2)
 #labels

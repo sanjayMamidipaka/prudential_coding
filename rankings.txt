@@ -1,11 +1,1 @@
 
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
