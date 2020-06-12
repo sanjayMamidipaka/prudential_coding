@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+{'Social Media Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
+{'Social Media Availablity': {'Snapchat': 1, 'Instagram': 2, 'Facebook': 2, 'Twitter': 2, 'WhatsApp': 2, 'Pinterest': 2, 'LinkedIn': 2, 'YouTube': 3}}
+{'Pct. Diff. Between Actual Age and Preferred Age (35)': {'Snapchat': 1, 'Instagram': 2, 'WhatsApp': 3, 'Twitter': 4, 'LinkedIn': 5, 'YouTube': 6, 'Facebook': 7, 'Pinterest': 8}}
 {'Started Retirement Saving Between 18-29': {'youtube': 1, 'Facebook': 2, 'Instagram': 3, 'Snapchat': 4, 'Twitter': 5, 'Linkedin': 6}}
 {'Started Retirement Saving Between 30-49': {'youtube': 1, 'Facebook': 2, 'Instagram': 3, 'Linkedin': 4, 'Twitter': 5, 'Snapchat': 6}}
-=======
-{'Social Media Usage': {'YouTube': 1, 'Facebook': 2, 'Instagram': 3, 'Pinterest': 4, 'LinkedIn': 5, 'Twitter': 6, 'Snapchat': 7, 'WhatsApp': 8}}
-{'Platform Usage': {'Desktop/Laptop': 1, 'Tablet': 2, 'Game Console': 3, 'Phone': 4}}
-{'Social Media Availablity': {'YouTube': 1, 'Instagram': 2, 'Facebook': 2, 'Twitter': 2, 'WhatsApp': 2, 'Pinterest': 2, 'LinkedIn': 2, 'Snapchat': 3}}
->>>>>>> 7dcfc89ab8d28272c9dba3a7de84eb14e549294e
+{'Average Income Per Platform': {'LinkedIn': 1, 'Pinterest': 2, 'Twitter': 3, 'Instagram': 4, 'YouTube': 5, 'Snapchat': 6, 'Facebook': 7, 'WhatsApp': 8}}
+{'Income Adjusted for Age': {'Snapchat': 1, 'Instagram': 2, 'LinkedIn': 3, 'Twitter': 4, 'WhatsApp': 5, 'Pinterest': 6, 'YouTube': 7, 'Facebook': 8}}

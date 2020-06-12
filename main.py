@@ -57,7 +57,7 @@ normalized = normalize(percents2)
 
 for passnum in range(len(normalized)-1,0,-1):
     for i in range(passnum):
-        if normalized[i]<normalized[i+1]:
+        if normalized[i]>normalized[i+1]:
             temp3 = normalized[i]
             normalized[i] = normalized[i+1]
             normalized[i+1] = temp3
@@ -68,7 +68,6 @@ for passnum in range(len(normalized)-1,0,-1):
 normalizedNums = [1,2,3,4]
 dictionary2 = dict(zip(labels2, normalizedNums))
 
-ranking_object.add_ranking("Platform Usage", dictionary2)
 #graph, with the x axis labels and y values
 axs[1].bar(labels2, normalized)
 #labels
@@ -80,7 +79,7 @@ axs[0].set_title('Platform Ownership')
 
 
 labels3 = ['Twitter','Instagram','Facebook','Snapchat','YouTube','WhatsApp','Pinterest','LinkedIn']
-percents3 = [2,2,2,3,1,2,2,2]
+percents3 = [2,2,2,1,3,2,2,2]
 percents4, labels4 = ranking_object.two_sort(percents3,labels3)
 dictionary3 = dict(zip(labels4,percents4))
 print(percents4)
@@ -94,5 +93,5 @@ axs[0].set_title('Social Media Availablity')
 
 
 
-plt.show()
+# plt.show()
 

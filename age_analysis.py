@@ -22,6 +22,8 @@ for i in range(len(labels)):
 values, labels = ranking_object.two_sort_ascending(values, labels)
 plt.bar(labels, values)
 plt.title('Percent Difference Between Social Media Platforms and Preferred Age to Begin Investing ')
+dictionary = ranking_object.convert_to_rankings(dict(zip(labels, values)))
+ranking_object.add_ranking("Pct. Diff. of SM platforms and age to begin investing(35)", dictionary)
 plt.show()
 
 #the preferred age to start investing is 35
